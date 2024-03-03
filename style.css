@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;1,500;1,600;1,700&display=swap');
+ * {
+   
+    box-sizing: border-box;
+ }
+.avatar {background-color: aqua;}
+.avatar1 {background-color: rgb(49, 235, 33);
+
+ }
+    .avatar1 > div {
+       display: flex;
+       flex-direction: row;
+    }
+section  {
+        display: flex;
+        flex-direction: row;
+        margin-left: 10px;
+     }
+   /* .education  {
+        display: flex;
+        flex-direction: row;
+     }
+     .inter  {
+        display: flex;
+        flex-direction: row;
+     }
+     .kontact  {
+        display: flex;
+        flex-direction: row;
+     } */
+
+ .edu, .exert, .contacts_data {
+    background-color: brown; width:  50%;
+    display: flex;
+    flex-direction: column;
+ }
+ .map, .git, .marg {background-color: rgba(255, 255, 0, 0.418); width:  50%;
+    display: flex;
+    flex-direction: column;
+}
+
+    img {
+        height: 400px;
+        display: flex;
+    }  
+    .yellow_reg {
+        height: 2px;
+        width: 17px;
+        background-color: rgb(77, 221, 33);
+     } 
+     .grey_line {
+        width: 135px;
+        height: 4px;
+        background-color: grey;
+    }
+    .yellow_line {
+        width: 115px;
+        height: 100%;
+        background-color: yellow;
+    }
+    .yellow_line ::after {
+        content: '';
+        position: absolute;
+        right: 0;
+        top: -1px;
+        height: calc(100% + 2px);
+        background-color: yellow;
+        width: 2px;
+    }
+.w115 {width: 115px;}
+.w58 {width: 70px;}
+.w41 {width: 110px;}
+.w39 {width: 99px;}
+h1 {
+    font-size: 30px;
+ }
+ h2 {
+    font-size: 17px;
+ }
+ h3 {
+    font-size: 15px;
+ }
+ p {
+    font-size: 12px;
+    margin-bottom: 0;
+    margin-top: 6px;
+ }
